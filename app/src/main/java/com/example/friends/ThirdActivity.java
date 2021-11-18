@@ -13,9 +13,14 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
     }
-    public void onClick(View view)
+    public void onClick1(View view)
     {
         Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+    public void onClick2(View view)
+    {
+        Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
 }

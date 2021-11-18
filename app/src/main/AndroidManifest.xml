@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Friends">
         <activity
+            android:name=".WebView"
+            android:exported="false" />
+        <activity
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity
