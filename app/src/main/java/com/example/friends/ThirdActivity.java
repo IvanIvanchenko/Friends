@@ -23,4 +23,10 @@ public class ThirdActivity extends AppCompatActivity {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
+    public void onClick4(View view)
+    {
+        Intent intent = new Intent(this, WebViewActivity.class);
+        startActivity(intent);
+    }
+
 }
